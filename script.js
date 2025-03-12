@@ -44,4 +44,4 @@ books[0].after(books[4]);
  book6NewElemList.textContent = "Глава 8: За пределами ES6";
  book6ul.appendChild(book6NewElemList);
  const book6list = books[2].querySelectorAll('li');
- book6list[8].after(book6list[10]);
+ book6list[9].before(book6list[10]);
